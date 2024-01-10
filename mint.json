@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@vegalake .com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dev.vegalake.com/"
   },
   "tabs": [
     {
@@ -31,21 +31,21 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
+  "anchors": [  
     {
-      "name": "Documentation",
+      "name": "VegaDB",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "http://localhost:3000/vegadb/quickstart"
     },
     {
-      "name": "Community",
+      "name": "VegaFlow",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "http://localhost:3000/vegaflow/quickstart"
     },
     {
-      "name": "Blog",
+      "name": "Vega Catalog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "http://localhost:3000/catalog/quickstart"
     }
   ],
   "navigation": [
@@ -71,8 +71,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/vegalakeinc",
+    "github": "https://github.com/VegaLakeInc",
+    "linkedin": "https://www.linkedin.com/company/vegalake-inc/"
   }
 }
