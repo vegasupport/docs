@@ -7,9 +7,13 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#0055ff",
+    "light": "#00d5ff",
+    "dark": "#0055ff",
+    "background": {
+      "dark": "#000000",
+      "light": "#ffffff"
+    },
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -25,27 +29,39 @@
     "name": "Dashboard",
     "url": "https://dev.vegalake.com/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [  
     {
       "name": "VegaDB",
       "icon": "book-open-cover",
-      "url": "http://localhost:3000/vegadb/quickstart"
+      "url": "vegadb"
     },
     {
       "name": "VegaFlow",
       "icon": "slack",
-      "url": "http://localhost:3000/vegaflow/quickstart"
+      "url": "vegaflow"
     },
     {
       "name": "Vega Catalog",
       "icon": "newspaper",
-      "url": "http://localhost:3000/catalog/quickstart"
+      "url": "catalog"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "VegaDB",
+      "url": "vegadb"
+    },
+    {
+      "name": "VegaFlow",
+      "url": "vegaflow"
+    },
+    {
+      "name": "VegaCatalog",
+      "url": "catalog"
     }
   ],
   "navigation": [
@@ -54,19 +70,31 @@
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "VegaDB",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "vegadb/quickstart",
+        "vegadb/introduction",
+        "vegadb/development"
+      ]
+    },
+    {
+      "group": "VegaFlow",
+      "pages": [
+        "vegaflow/quickstart",
+        "vegaflow/introduction",
+        "vegaflow/development"
+      ]
+    },
+    {
+      "group": "VegaCatalog",
+      "pages": [
+        "catalog/quickstart",
+        "catalog/introduction",
+        "catalog/development"
       ]
     }
   ],
